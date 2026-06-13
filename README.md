@@ -8,7 +8,7 @@ The projects emphasize practical analysis rather than polished demos only. Each 
 
 | Project | Type | Focus | Link |
 |---|---|---|---|
-| Lead Quality Optimization | Interview challenge | Lead quality trends, logistic regression, segment analysis, and CPL optimization | [View project](lead-quality-optimization/) |
+| Lead Quality Optimization with Python | Interview challenge | Lead quality trends, logistic regression, segment analysis, and CPL optimization | [View project](lead-quality-optimization/) |
 | Movie Success Analysis with Python | Coursework and personal analysis | Web scraping, data cleaning, feature engineering, visualization, logistic regression, and gross-revenue modeling | [View project](movie-success-analysis-python/) |
 
 ## What This Portfolio Shows
