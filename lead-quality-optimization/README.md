@@ -1,10 +1,10 @@
 # Lead Quality Optimization
 
-Portfolio project focused on marketing lead quality, segment analysis, and cost-per-lead optimization. The analysis studies lead quality trends, identifies segments associated with stronger outcomes, and evaluates whether optimization opportunities could justify a higher cost per lead.
+This project analyzes a lead-generation dataset to understand lead quality trends, identify segments associated with stronger outcomes, and evaluate whether operational changes could justify a higher cost per lead.
 
 ## Project Highlights
 
-This notebook answers three business questions:
+The notebook answers three business questions:
 
 1. Whether lead quality changed over time and whether the pattern was statistically meaningful.
 2. Which campaign, ad, placement, and lead characteristics were associated with lead quality.
@@ -17,6 +17,10 @@ Lead quality declined from April through July 2009, then partially recovered in 
 Debt segment was the clearest person-level driver in the adjusted modeling. Ad size and design were useful in exploratory screening, while partner and campaign signals were more directional after adjustment.
 
 Using `Closed` as the primary business KPI, the proposed economics were favorable. Moving from 8.0 percent to 9.6 percent quality while CPL rises from $30 to $33 improves cost per closed lead from $375 to about $344.
+
+## Portfolio Context
+
+This project is presented as a public portfolio version of an interview-style analytics challenge. Company-specific references, raw lead-level data, and original prompt materials have been removed. The public version focuses on the analytical workflow, modeling decisions, and business interpretation.
 
 ## Methods
 
