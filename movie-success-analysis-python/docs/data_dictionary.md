@@ -34,3 +34,28 @@ Derived from IMDb-style movie metadata after cleaning and feature engineering.
 ## `data/movie_merged_sample.csv`
 
 Merged project dataset containing budget/gross data and movie metadata. It is useful for quickly inspecting the joined analysis table without rerunning the full scrape.
+
+## Final Modeling Fields in Notebook
+
+The notebook creates a final modeling table with 933 cleaned observations. Important fields include:
+
+| Column | Description |
+| --- | --- |
+| `year` | Movie release year. |
+| `gross_wor` | Worldwide gross revenue in USD. |
+| `budget` | Production budget in USD. |
+| `score_user` | User rating score. |
+| `score_user_good` | Binary indicator for strong user rating. |
+| `score_meta` | Critic/metascore value. |
+| `ip` | Binary indicator for established franchise/IP status. |
+| `oscar_lead` | Whether the lead actor had previously won an Oscar. |
+| `director_one` | Whether the movie had a single director. |
+| `oscar_director` | Whether the director had previously won an Oscar. |
+| `mins` | Runtime in minutes. |
+| `log_year` | Log-transformed release year. |
+| `log_gross_wor` | Log-transformed worldwide gross. |
+| `log_budget` | Log-transformed production budget. |
+| `log_mins` | Log-transformed runtime. |
+| `rating_pg` | Binary indicator for PG-rated movies. |
+| `rating_pg_13` | Binary indicator for PG-13-rated movies. |
+| `rating_r` | Binary indicator for R-rated movies. |

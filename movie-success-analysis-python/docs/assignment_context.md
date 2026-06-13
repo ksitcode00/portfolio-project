@@ -2,12 +2,16 @@
 
 This project was created for STA 141B as an end-to-end Python data analysis project. The assignment emphasized building a dataset programmatically, cleaning and combining multiple sources, visualizing patterns, and applying statistical modeling to answer a substantive question.
 
+For the public portfolio version, the project is framed around a practical analytics question: which measurable movie attributes help explain audience reception and box-office performance?
+
 ## Project Framing
 
 The analysis asks how movie characteristics relate to two outcomes:
 
 - Audience reception, represented by user rating and a binary "good user score" indicator.
 - Commercial performance, represented by worldwide gross revenue.
+
+The final notebook answers these questions by combining data collection, feature construction, exploratory visualization, and regression modeling in one reproducible Python workflow.
 
 ## Workflow Summary
 
@@ -18,6 +22,14 @@ The analysis asks how movie characteristics relate to two outcomes:
 5. Clean categorical fields and engineer modeling variables.
 6. Create visual summaries for numeric and binary predictors.
 7. Fit and diagnose logistic and linear regression models.
+
+## Final Analysis Artifacts
+
+- `notebooks/movie_success_analysis.ipynb`: final document containing code, analysis, visual outputs, model summaries, diagnostics, and limitations.
+- `data/movie_budget_gross.csv`: derived budget and gross dataset.
+- `data/movie_imdb_features.csv`: derived IMDb-style metadata and rating features.
+- `data/movie_merged_sample.csv`: merged project dataset for quick inspection.
+- `docs/results_summary.md`: recruiter-friendly summary of the final results and interpretation.
 
 ## Public Portfolio Adjustments
 
