@@ -2,6 +2,8 @@
 
 This project analyzes a lead-generation dataset to understand lead quality trends, identify segments associated with stronger outcomes, and evaluate whether operational changes could justify a higher cost per lead.
 
+Completed in 2026.
+
 ## Project Highlights
 
 The notebook answers three business questions:
