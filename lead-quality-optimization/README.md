@@ -1,6 +1,6 @@
-# Aarki Lead Quality Optimization
+# Lead Quality Optimization
 
-Portfolio project based on a data analyst take-home challenge. The analysis studies lead quality trends, identifies segments associated with stronger lead quality, and evaluates whether optimization opportunities could justify a higher cost per lead.
+Portfolio project focused on marketing lead quality, segment analysis, and cost-per-lead optimization. The analysis studies lead quality trends, identifies segments associated with stronger outcomes, and evaluates whether optimization opportunities could justify a higher cost per lead.
 
 ## Project Highlights
 
@@ -30,15 +30,15 @@ Using `Closed` as the primary business KPI, the proposed economics were favorabl
 
 ## Repository Contents
 
-- `Aarki_Data_Analyst_Portfolio_Project.ipynb`: sanitized public notebook with outputs cleared
+- `Lead_Quality_Optimization_Portfolio_Project.ipynb`: sanitized public notebook with outputs cleared
 - `README.md`: project summary and portfolio notes
 
 ## Data Note
 
-The raw lead-level dataset and original assignment prompt are not included in this public repository because the source file contains contact-level fields and the prompt may be employer-provided material. The notebook keeps the analysis logic visible and uses a relative placeholder path:
+The raw lead-level dataset is not included in this public repository because the source file contains contact-level fields. The notebook keeps the analysis logic visible and uses a relative placeholder path:
 
 ```python
-data/Analyst_case_study_dataset.xls
+data/lead_quality_dataset.xls
 ```
 
 Anyone with authorized access to the dataset can place it at that path and rerun the notebook locally.

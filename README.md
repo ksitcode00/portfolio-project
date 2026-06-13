@@ -6,8 +6,8 @@ This repository collects selected analytics and data science portfolio projects.
 
 | Project | Focus | Link |
 |---|---|---|
-| Aarki Lead Quality Optimization | Lead quality trends, logistic regression, segment analysis, and CPL optimization | [View project](aarki-lead-quality-optimization/) |
+| Lead Quality Optimization | Lead quality trends, logistic regression, segment analysis, and CPL optimization | [View project](lead-quality-optimization/) |
 
 ## Notes
 
-Projects in this repository are prepared for public review. When a project is based on a take-home challenge or sensitive source data, raw datasets and employer-provided prompts are excluded from the public version.
+Projects in this repository are prepared for public review. When a project uses sensitive or restricted source data, raw datasets and original prompts are excluded from the public version.
