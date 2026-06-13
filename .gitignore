@@ -1,6 +1,6 @@
 .DS_Store
 .ipynb_checkpoints/
-data/
+/data/
 *.xls
 *.xlsx
 *.html

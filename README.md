@@ -7,6 +7,7 @@ This repository collects selected analytics and data science portfolio projects.
 | Project | Focus | Link |
 |---|---|---|
 | Lead Quality Optimization | Lead quality trends, logistic regression, segment analysis, and CPL optimization | [View project](lead-quality-optimization/) |
+| Movie Success Analysis with Python | Web scraping, data cleaning, feature engineering, visualization, logistic regression, and gross-revenue modeling | [View project](movie-success-analysis-python/) |
 
 ## Notes
 
