@@ -23,3 +23,7 @@ This folder contains a GitHub-ready copy of my original R analysis workflow, but
 The underlying study involves human-subjects survey data from a vulnerable population. Even after direct identifiers are removed, participant-level clinical, demographic, household, and symptom fields should not be published in a portfolio repository.
 
 The code remains useful because it shows the analytical decisions: cleaning, reshaping, symptom grouping, repeated-measures modeling, diagnostics, and publication-style reporting.
+
+## Public Portfolio Direction
+
+For a recruiter-facing public version, this project should use either code only, a synthetic sample dataset, a properly approved de-identified processed dataset, or final non-sensitive aggregate outputs. Raw participant-level records should not be uploaded unless explicit permission is granted.
