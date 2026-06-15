@@ -4,6 +4,8 @@ This project is a public portfolio draft for a submitted environmental-health ma
 
 The public GitHub version is intentionally privacy-aware. It summarizes the analytical workflow and selected aggregate findings while excluding raw participant-level data, manuscript files under review, and internal collaboration materials.
 
+The main code artifact is included at [analysis/Air_Pollution_Research_V1_public.Rmd](analysis/Air_Pollution_Research_V1_public.Rmd). This public copy preserves the original exploratory and modeling workflow while replacing local file paths with repository-relative placeholders.
+
 ## Background
 
 Household air pollution is a major public-health and environmental challenge in rural India, where many households continue to rely on solid biomass fuels and traditional cookstoves. Traditional biomass combustion can generate high levels of particulate matter and carbon monoxide, especially during cooking. Improved cookstove programs aim to reduce these exposures, but real-world indoor air quality depends on more than stove type alone. Adoption, maintenance, stove stacking, kitchen structure, household size, electricity access, ventilation, and other indoor combustion sources can all affect measured pollutant concentrations.
@@ -180,6 +182,9 @@ Because the study is observational, I interpret the results as adjusted associat
 
 ```text
 .
+|-- analysis/
+|   |-- Air_Pollution_Research_V1_public.Rmd
+|   `-- README.md
 |-- data/
 |   `-- README.md
 |-- docs/
@@ -192,4 +197,4 @@ Because the study is observational, I interpret the results as adjusted associat
 
 ## Data Note
 
-Raw participant-level data, submitted manuscript drafts, internal review documents, and original result workbooks are not included in this public portfolio version. See [docs/data_privacy.md](docs/data_privacy.md) for the release boundary.
+Raw participant-level data, submitted manuscript drafts, internal review documents, and original result workbooks are not included in this public portfolio version. The R Markdown file uses `data/private/IndoorAirQuality_full_raw_data_new.xlsx` as a placeholder path for authorized local review. See [docs/data_privacy.md](docs/data_privacy.md) for the release boundary.

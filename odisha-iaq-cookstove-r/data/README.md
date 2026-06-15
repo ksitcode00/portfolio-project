@@ -17,3 +17,8 @@ Future public-safe additions could include:
 - aggregate result tables
 - reproducible analysis scripts with placeholder paths
 
+The public R Markdown file expects authorized private data at:
+
+```text
+data/private/IndoorAirQuality_full_raw_data_new.xlsx
+```
