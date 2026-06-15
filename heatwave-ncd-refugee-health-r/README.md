@@ -1,6 +1,6 @@
 # Longitudinal Analysis of Climate Related Health Symptoms Among Refugees With NCDs
 
-This project is an applied public health statistics project based on an accepted research publication on heat-wave and dust-storm impacts among adults with noncommunicable diseases (NCDs) in Za'atari Refugee Camp.
+This project is an applied public health statistics project based on an accepted research publication on heat-wave and dust-storm impacts among adults with noncommunicable diseases (NCDs) in Refugee Camp.
 
 This is not positioned as a machine learning project. The strongest technical focus is longitudinal health-survey analysis: repeated measurements, symptom text cleaning, clinically meaningful outcome construction, GLMM/GEE modeling, odds ratios, confidence intervals, diagnostics, and public health interpretation.
 
