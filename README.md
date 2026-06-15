@@ -6,43 +6,12 @@ Across these projects, I focus on the full analytical workflow: framing a real q
 
 ## Projects
 
-### [Lead Quality Optimization with Python](lead-quality-optimization/)
-
-**Context:** Data analyst take-home case study
-
-Analyzed lead quality trends, identified high- and low-performing marketing segments, fit logistic regression models, and evaluated whether a higher CPL could be justified by improved lead quality.
-
-**Skills demonstrated:** Python, pandas, statistical testing, logistic regression, segmentation, business KPI analysis, CPL optimization
-
----
-
-### [Movie Success Modeling with Web Scraped Data](movie-success-analysis-python/)
-
-**Context:** Undergraduate Python data science project completed in 2022
-
-Built an end-to-end movie analytics pipeline using web-scraped and merged data to study audience ratings and worldwide gross revenue.
-
-**Skills demonstrated:** Web scraping, data cleaning, entity matching, feature engineering, visualization, logistic regression, linear regression, model diagnostics
-
----
-
-### [Longitudinal Analysis of Climate Related Health Symptoms Among Refugees With NCDs](heatwave-ncd-refugee-health-r/)
-
-**Context:** Research publication and applied public health statistics project
-
-Analyzed repeated survey data from adults with noncommunicable diseases in Za’atari Refugee Camp to study reported health impacts of heatwaves and dust storms.
-
-**Skills demonstrated:** R, symptom text cleaning, repeated-measures analysis, GLMM, GEE, odds ratios, privacy-aware reporting
-
----
-
-### [Indoor Air Quality Analysis in Rural India](odisha-iaq-cookstove-r/)
-
-**Context:** Submitted environmental health research project
-
-Analyzed indoor air quality monitoring and household survey data to evaluate pollution levels and identify household factors associated with particulate matter and carbon monoxide concentrations.
-
-**Skills demonstrated:** R, data cleaning, environmental exposure analysis, EDA, log-linear regression, model diagnostics, statistical inference, public health analytics
+| Project | Context | Analysis Summary | Skills Demonstrated |
+|---|---|---|---|
+| [Lead Quality Optimization with Python](lead-quality-optimization/) | Data analyst take-home case study | Analyzed lead quality trends, identified high- and low-performing marketing segments, fit logistic regression models, and evaluated whether a higher CPL could be justified by improved lead quality. | Python, pandas, statistical testing, logistic regression, segmentation, business KPI analysis, CPL optimization |
+| [Movie Success Modeling with Web Scraped Data](movie-success-analysis-python/) | Undergraduate Python data science project completed in 2022 | Built an end-to-end movie analytics pipeline using web-scraped and merged data to study audience ratings and worldwide gross revenue. | Web scraping, data cleaning, entity matching, feature engineering, visualization, logistic regression, linear regression, model diagnostics |
+| [Longitudinal Analysis of Climate Related Health Symptoms Among Refugees With NCDs](heatwave-ncd-refugee-health-r/) | Research publication and applied public health statistics project | Analyzed repeated survey data from adults with noncommunicable diseases in Za’atari Refugee Camp to study reported health impacts of heatwaves and dust storms. | R, symptom text cleaning, repeated-measures analysis, GLMM, GEE, odds ratios, privacy-aware reporting |
+| [Indoor Air Quality Analysis in Rural India](odisha-iaq-cookstove-r/) | Submitted environmental health research project | Analyzed indoor air quality monitoring and household survey data to evaluate pollution levels and identify household factors associated with particulate matter and carbon monoxide concentrations. | R, data cleaning, environmental exposure analysis, EDA, log-linear regression, model diagnostics, statistical inference, public health analytics |
 
 ## What This Portfolio Shows
 
