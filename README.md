@@ -1,6 +1,6 @@
 # Data Science and Analytics Portfolio
 
-<<<<<<< HEAD
+
 This repository collects selected work across interview challenges, personal side projects, coursework, and research projects. The goal is to show how I approach real data problems from problem framing and data cleaning through modeling, interpretation, and business recommendations.
 
 The projects emphasize practical analysis rather than finished charts alone. Each folder includes the project notebook or source files, a short summary, and notes about data availability when raw data cannot be shared publicly.
@@ -8,7 +8,7 @@ The projects emphasize practical analysis rather than finished charts alone. Eac
 This repository showcases selected data science and analytics projects in Python and R. The projects cover business analytics, web-scraped data pipelines, statistical modeling, public health research, and decision-focused reporting.
 
 Across these projects, I focus on the full analytical workflow: framing a real question, cleaning messy data, building interpretable features, applying appropriate statistical or machine learning methods, checking model assumptions, and translating results into clear recommendations.
->>>>>>> 761cddac4365a9a681da0a81ba9ecc169ec0e596
+
 
 ## Projects
 
@@ -37,7 +37,7 @@ Across these projects, I focus on the full analytical workflow: framing a real q
 ## What This Portfolio Shows
 
 This portfolio highlights my ability to work through real data problems from beginning to end. The projects demonstrate:
->>>>>>> 761cddac4365a9a681da0a81ba9ecc169ec0e596
+
 
 1. Turning broad research or business questions into measurable analytical steps.
 2. Cleaning, validating, and restructuring messy real-world datasets.
