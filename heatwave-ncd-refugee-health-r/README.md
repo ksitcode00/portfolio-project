@@ -1,4 +1,4 @@
-# Heat Wave and NCD Symptom Analysis with R
+# Heat Wave Symptom Analysis with R
 
 This project is a private portfolio draft for an accepted research publication on heat-wave and dust-storm impacts among adults with non-communicable diseases in a refugee-camp setting.
 
