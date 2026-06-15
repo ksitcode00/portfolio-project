@@ -14,7 +14,7 @@ Across these projects, I focus on the full analytical workflow: framing a real q
 
 | Project | Context | What I Built | Skills Demonstrated |
 |---|---|---|---|
-<<<<<<< HEAD
+
 | Lead Quality Optimization | Interview-style analytics challenge | Marketing lead-quality trends, logistic regression, segment analysis, and CPL optimization | [View project](lead-quality-optimization/) |
 | Movie Success Analysis with Python | Coursework and personal analysis | Web scraping, data cleaning, feature engineering, visualization, logistic regression, and gross-revenue modeling | [View project](movie-success-analysis-python/) |
 | Heat Wave and NCD Symptom Analysis with R | Accepted research publication | R-based longitudinal health-survey analysis, GEE/GLMM modeling, symptom categorization, and privacy-aware public release | [View project](heatwave-ncd-refugee-health-r/) |
@@ -28,7 +28,7 @@ Across these projects, I focus on the full analytical workflow: framing a real q
 - Communicating model results in business language
 - Translating statistical results into cost and revenue decisions
 - Being careful with sensitive or restricted data in public repositories
-=======
+
 | [Lead Quality Optimization with Python](lead-quality-optimization/) | Data analyst take-home case study | Analyzed lead quality trends, identified high- and low-performing marketing segments, fit logistic regression models, and evaluated whether a higher CPL could be justified by improved lead quality. | Python, pandas, statistical testing, logistic regression, segmentation, business KPI analysis, CPL optimization |
 | [Movie Success Modeling with Web Scraped Data](movie-success-analysis-python/) | Undergraduate Python data science project completed in 2022 | Built an end-to-end movie analytics pipeline using web-scraped and merged data to study audience ratings and worldwide gross revenue. | Web scraping, data cleaning, entity matching, feature engineering, visualization, logistic regression, linear regression, model diagnostics |
 | [Longitudinal Analysis of Climate Related Health Symptoms Among Refugees With NCDs](heatwave-ncd-refugee-health-r/) | Research publication and applied public health statistics project | Analyzed repeated survey data from adults with noncommunicable diseases in Refugee Camp to study reported health impacts of heatwaves and dust storms. | R, symptom text cleaning, repeated-measures analysis, GLMM, GEE, odds ratios, privacy-aware reporting |
