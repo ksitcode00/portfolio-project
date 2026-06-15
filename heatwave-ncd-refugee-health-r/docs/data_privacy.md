@@ -1,27 +1,25 @@
 # Data Privacy and Public-Release Notes
 
-This folder is a public portfolio version of an accepted research project. It does not include the original survey dataset, the cleaned clinic-level data, respondent identifiers, free-text responses, manuscript drafts, review files, or local research-team notes.
+This folder contains a GitHub-ready copy of my original R analysis workflow, but it does not include restricted research data.
 
-The included CSV is synthetic. It was generated to preserve the analytical structure of the original project:
+## What Is Included
 
-- repeated observations for the same participants across three survey phases
-- heat-wave and dust-storm exposure indicators
-- demographic and living-condition covariates
-- NCD history indicators
-- binary symptom outcomes and an ordinal symptom-severity score
-
-The synthetic data should not be used for epidemiologic inference. Its purpose is to make the R workflow reviewable by recruiters, collaborators, and technical readers without disclosing restricted human-subjects data.
-
-## What Is Public
-
-- Reproducible R code for data generation, cleaning, summaries, GEE modeling, GLMM model comparison, and visualization
-- Aggregate example outputs generated from synthetic data
-- A project summary describing the research question, methods, and portfolio skills
+- An adapted copy of the original R Markdown analysis file
+- Documentation describing the research question, workflow, and interpretation
+- Placeholder paths showing where authorized data should be placed locally
 
 ## What Is Withheld
 
 - Participant-level source data
+- The cleaned clinic-level CSV used in the restricted analysis environment
+- The heat-wave and dust-storm severity-score CSV used in the restricted analysis environment
 - Original free-text symptom responses
-- Internal manuscript files and reviewer correspondence
-- Local file paths and collaboration notes
-- Any direct copy of protected or restricted study material
+- Participant-specific manual correction IDs
+- Internal manuscript drafts, review files, and correspondence
+- Local machine paths from the original working script
+
+## Why The Data Are Withheld
+
+The underlying study involves human-subjects survey data from a vulnerable population. Even after direct identifiers are removed, participant-level clinical, demographic, household, and symptom fields should not be published in a portfolio repository.
+
+The code remains useful because it shows the analytical decisions: cleaning, reshaping, symptom grouping, repeated-measures modeling, diagnostics, and publication-style reporting.
