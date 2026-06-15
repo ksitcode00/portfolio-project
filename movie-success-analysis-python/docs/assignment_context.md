@@ -1,8 +1,10 @@
 # Assignment Context
 
-This project was created for STA 141B as an end-to-end Python data analysis project. The assignment emphasized building a dataset programmatically, cleaning and combining multiple sources, visualizing patterns, and applying statistical modeling to answer a substantive question.
+This project was created in 2022 for STA 141B as an end-to-end Python data analysis project. The assignment emphasized building a dataset programmatically, cleaning and combining multiple sources, visualizing patterns, and applying statistical modeling to answer a substantive question.
 
 For the public portfolio version, the project is framed around a practical analytics question: which measurable movie attributes help explain audience reception and box-office performance?
+
+The project should be read as a post-release explanatory analysis. It is not designed as a pre-release forecasting system because several modeled variables, including user rating, Metascore, and worldwide gross, are only known after release.
 
 ## Project Framing
 
@@ -22,6 +24,7 @@ The final notebook answers these questions by combining data collection, feature
 5. Clean categorical fields and engineer modeling variables.
 6. Create visual summaries for numeric and binary predictors.
 7. Fit and diagnose logistic and linear regression models.
+8. Document reproducibility limitations caused by changing public websites.
 
 ## Final Analysis Artifacts
 
@@ -35,4 +38,4 @@ The final notebook answers these questions by combining data collection, feature
 
 The original folder contained intermediate notebooks, local caches, SQLite files, and exploratory drafts. This public version keeps the final notebook and compact derived CSV files, then adds documentation so the project is easier to understand from GitHub.
 
-Some notebook cells note that they are not fully rerunnable because they depended on changing website output or on index positions from the original scrape. Those notes are preserved because they accurately document the reproducibility limitations and decisions in the original analysis.
+Some notebook cells note that they are not fully rerunnable because they depended on changing website output or on index positions from the original 2022 scrape. Those notes are preserved because they accurately document the reproducibility limitations and decisions in the original analysis. In a production version, the scraping, cleaning, feature engineering, and modeling steps would be split into scripts and run from frozen raw and processed data snapshots.
