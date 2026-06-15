@@ -9,12 +9,12 @@ Dataset Setup
 library(readr)
 
 df_wide <- read_csv(
-  'data/private/NCD_Data_clean_categories.csv',
+  'data/private/cleaned_study_data.csv',
   skip = 4,
   locale = locale(encoding = "latin1")
 )
 
-serverity_df = read.csv('data/private/HW_DS_Severity_Scale.csv', skip = 0)
+serverity_df = read.csv('data/private/symptom_severity_scores.csv', skip = 0)
 
 
 df_wide_copy = df_wide
@@ -5664,12 +5664,12 @@ Dataframe
 library(readr)
 
 df_wide <- read_csv(
-  'data/private/NCD_Data_clean_categories.csv',
+  'data/private/cleaned_study_data.csv',
   skip = 4,
   locale = locale(encoding = "latin1")
 )
 
-serverity_df = read.csv('data/private/HW_DS_Severity_Scale.csv', skip = 0)
+serverity_df = read.csv('data/private/symptom_severity_scores.csv', skip = 0)
 
 
 
