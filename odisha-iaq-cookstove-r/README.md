@@ -55,7 +55,30 @@ EDA was used to understand distributions, group differences, and modeling assump
 
 The EDA showed that pollutant outcomes were strongly right-skewed, supporting log-transformed pollutant models and effect-size reporting on the percent-difference scale.
 
+## Result Workbooks and Analysis Outputs
+
+I organized the statistical outputs into two Excel result workbooks that functioned as analysis review files rather than raw datasets.
+
+The first workbook compiled the EDA and bivariate result layer. It included before-vs-after log-transformation plots, lung-function correlation summaries, health-outcome group differences, non-health group differences, raw and log-scale descriptive statistics by household characteristic, and subgroup analyses such as electricity-only households, focus vs regular villages, and income groups among households with electricity.
+
+The second workbook organized the modeling layer. It included univariate logistic-regression output, pollutant-specific models, wheezing/cough/phlegm/breathlessness outcome models, FVC/FEV1/PEF ratio analyses, mediation-analysis tables, lung-disease models, pollutant-to-health pathways, and multivariable model summaries. These workbooks helped me track which variables were important in exploratory screening, which variables entered the multivariable stage, and how final model outputs should be translated into manuscript tables and figures.
+
 ## Statistical Modeling
+
+### Model Selection Strategy
+
+The modeling workflow used a two-stage selection strategy.
+
+First, I ran univariate screening models to evaluate associations between outcomes and individual non-health, pollutant, respiratory, and lung-function predictors. For binary health outcomes, I used univariate logistic regression with likelihood-ratio testing. For continuous pollutant outcomes, I used linear models on log-transformed pollutant concentrations and F-tests where appropriate. These screening results were compiled in the result workbooks and used to understand candidate predictors before building multivariable models.
+
+Second, I fit multivariable models using a fixed-plus-backward-selection structure. A core set of a priori variables was forced into the models because they represented the main study design and confounding structure:
+
+- cookstove type
+- electricity access
+- focus vs regular village-program group
+- indoor vs outdoor kitchen location
+
+Additional household and structural predictors, such as education, income, roof material, kitchen ventilation, and household size, were treated as selectable candidate variables. I wrote a custom backward-selection function that kept the fixed variables in every model while removing only selectable terms with weaker evidence. The function used `drop1()` likelihood-ratio or F tests and retained selectable predictors at a liberal `p <= 0.20` threshold, which is commonly used during purposeful model-building to avoid prematurely excluding potential confounders.
 
 ### Adjusted Pollutant Models
 
@@ -170,4 +193,3 @@ Because the study is observational, I interpret the results as adjusted associat
 ## Data Note
 
 Raw participant-level data, submitted manuscript drafts, internal review documents, and original result workbooks are not included in this public portfolio version. See [docs/data_privacy.md](docs/data_privacy.md) for the release boundary.
-

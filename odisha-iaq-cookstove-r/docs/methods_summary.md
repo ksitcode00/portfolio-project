@@ -25,6 +25,33 @@ Pollutant variables were evaluated using density plots, Q-Q plots, and group-wis
 
 Group comparisons used parametric or nonparametric tests depending on distributional assumptions and group structure.
 
+## Result Workbook Organization
+
+The original analysis used two Excel result workbooks to organize the statistical outputs for review.
+
+The first workbook focused on exploratory and descriptive results. It contained raw and log-scale pollutant summaries, before-vs-after log-transformation review, lung-function correlations, health-outcome group differences, non-health group differences, descriptive statistics by household characteristics, and subgroup analyses such as electricity-only and focus-vs-regular comparisons.
+
+The second workbook focused on modeling results. It organized univariate logistic regression outputs, pollutant-specific screening, wheezing/cough/phlegm/breathlessness models, FVC/FEV1/PEF ratio analyses, mediation analyses, lung-disease models, and multivariable regression summaries.
+
+These workbooks were used as intermediate analytical products: they made it easier to compare candidate predictors, review tables and graphs, track subgroup findings, and decide which outputs belonged in the manuscript-facing tables and figures.
+
+## Model Selection
+
+The modeling workflow used both univariate screening and multivariable selection.
+
+First, candidate variables were evaluated one at a time. For binary health outcomes, the workflow used univariate logistic regression with likelihood-ratio tests. For continuous pollutant outcomes, the workflow used log-transformed linear models and F-tests where appropriate. This stage was used to understand which pollutant, health, lung-function, and household variables showed evidence of association before fitting larger models.
+
+Second, multivariable models used a fixed-plus-backward-selection approach. Four variables were treated as a priori fixed variables and were forced into the main models:
+
+- cookstove type
+- electricity access
+- focus vs regular village-program group
+- indoor vs outdoor kitchen location
+
+Other household predictors, including education, income, roof material, kitchen ventilation, and household size, were treated as selectable candidates.
+
+I implemented this using custom backward-selection functions in R. The logistic version used `drop1()` likelihood-ratio or F tests depending on the detected model family and dispersion; the linear-model version used `drop1()` F tests. The functions preserved all locked variables and only removed selectable predictors. Candidate variables were retained at `p <= 0.20`, a liberal threshold used for purposeful model-building so potentially important confounders were not removed too aggressively.
+
 ## Pollutant Regression Models
 
 Adjusted pollutant models used log-transformed pollutant concentrations as continuous outcomes. Coefficients were exponentiated to produce concentration ratios and then translated into percent differences.
@@ -61,4 +88,3 @@ The observational design limits causal claims. To strengthen interpretation, the
 - E-value sensitivity analysis
 
 These analyses were used to assess robustness and sensitivity to confounding, not to convert the study into a randomized design.
-
