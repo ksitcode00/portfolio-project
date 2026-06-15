@@ -11,6 +11,7 @@ The projects emphasize practical analysis rather than finished charts alone. Eac
 | Lead Quality Optimization | Interview-style analytics challenge | Marketing lead-quality trends, logistic regression, segment analysis, and CPL optimization | [View project](lead-quality-optimization/) |
 | Movie Success Analysis with Python | Coursework and personal analysis | Web scraping, data cleaning, feature engineering, visualization, logistic regression, and gross-revenue modeling | [View project](movie-success-analysis-python/) |
 | Heat Wave and NCD Symptom Analysis with R | Accepted research publication | R-based longitudinal health-survey analysis, GEE/GLMM modeling, symptom categorization, and privacy-aware public release | [View project](heatwave-ncd-refugee-health-r/) |
+| Household Air Pollution and Cookstove Analysis with R | Submitted environmental-health research | Indoor air quality analysis, EDA, adjusted regression, logistic regression, mediation analysis, IPW, and causal-inference sensitivity checks | [View project](odisha-iaq-cookstove-r/) |
 
 ## What This Portfolio Shows
 
