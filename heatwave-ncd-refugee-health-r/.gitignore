@@ -1,0 +1,5 @@
+data/private/
+*.html
+*.pdf
+*.RData
+*.Rhistory

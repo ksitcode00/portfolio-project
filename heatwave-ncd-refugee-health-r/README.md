@@ -1,92 +1,95 @@
 # Heat Wave and NCD Symptom Analysis with R
 
-This project is a public, sanitized portfolio version of an accepted research publication on heat-wave and dust-storm impacts among adults with non-communicable diseases in a refugee-camp setting.
+This project is a private portfolio draft for an accepted research publication on heat-wave and dust-storm impacts among adults with non-communicable diseases in a refugee-camp setting.
 
-The private research project used longitudinal survey data collected across three heat-wave-aligned phases. The public version does not include the original participant-level data, cleaned clinic dataset, manuscript drafts, or reviewer files. Instead, it shows the R workflow with synthetic data that mirrors the analytical structure without exposing sensitive information.
+The main code artifact is an adapted copy of my original R Markdown analysis file:
+
+```text
+analysis/Heatwave_V1_original_research_code.Rmd
+```
+
+I kept the original analytical workflow, including the data cleaning, symptom grouping, wide-to-long reshaping, GLMM modeling, GEE modeling, model diagnostics, phase contrasts, and severity-score analysis. I only changed the GitHub copy where needed to remove local machine paths and a participant-specific manual correction line. The original files in my research folder were not edited.
 
 ## Purpose
 
-The goal is to show how I used R to move from messy longitudinal health-survey data to interpretable epidemiologic results for a manuscript. This project demonstrates reproducible data cleaning, repeated-measures modeling, symptom categorization, model comparison, visualization, and careful public communication of restricted research.
+The purpose of this project was to quantify how heat waves and dust storms affected symptom burden among patients with NCDs in a displaced, low-resource setting. The analysis was written for a manuscript, not just a portfolio exercise, so the code focuses on answering a real research question clearly enough to support publication tables and interpretation.
 
 ## Problem
 
-Climate-linked heat waves and dust storms can worsen symptoms among patients with chronic diseases, but quantitative evidence from displaced and low-resource settings is limited. The study asked:
+Climate-linked extreme heat and dust exposure can worsen chronic disease symptoms, but there is limited quantitative evidence from refugee-camp settings. This project asked:
 
-1. Do reported heat-wave and dust-storm health impacts change across survey phases?
-2. Which NCD groups and symptoms are most associated with climate-related impacts?
-3. How can repeated participant observations be modeled while accounting for within-person correlation?
-4. How can sensitive human-subjects work be presented publicly without releasing restricted data?
+1. Did reported heat-wave and dust-storm impacts change across three survey phases?
+2. Which symptoms were most strongly associated with heat and dust exposure?
+3. Which patient groups, especially people with asthma, hypertension, or cardiovascular disease, appeared more vulnerable?
+4. How should repeated observations from the same participants be modeled in R?
 
-## What This Public Project Does
+## What We Did
 
-- Generates synthetic panel data with the same broad structure as the research analysis.
-- Cleans categorical and binary health-survey variables in R.
-- Summarizes symptom rates across three survey phases.
-- Fits generalized estimating equation models for population-averaged effects.
-- Fits mixed-effects logistic models with participant random intercepts.
-- Compares categorical, linear, and quadratic time specifications using AIC.
-- Exports odds-ratio tables, phase summaries, model-comparison outputs, and a trend plot.
+- Cleaned survey data collected across three phases aligned with heat-wave periods.
+- Combined the cleaned study data with heat-wave and dust-storm symptom-severity scores.
+- Reshaped wide phase-specific survey fields into long repeated-measures datasets.
+- Converted free-text symptom responses into clinically meaningful binary symptom groups.
+- Built separate heat-wave and dust-storm analysis datasets.
+- Modeled binary outcomes with generalized linear mixed-effects models and generalized estimating equations.
+- Compared random-intercept and random-slope specifications, then retained the random-intercept structure when the random-slope models showed boundary or singular-fit issues.
+- Compared categorical, linear, and quadratic time specifications using AIC.
+- Reported odds ratios, confidence intervals, p-values, phase contrasts, and model diagnostics.
 
 ## Skills Demonstrated
 
-- R programming for applied public-health analysis
-- `dplyr`, `tidyr`, `stringr`, `ggplot2`, `geepack`, `lme4`, and `emmeans`
-- Longitudinal data reshaping and repeated-measures design
-- Symptom keyword grouping from survey response fields
-- GEE logistic regression with robust standard errors
-- GLMM logistic regression with random intercepts
-- Odds-ratio and confidence-interval reporting
-- Model selection with AIC
-- Data privacy judgment for public portfolios
-- Translating statistical results into publication-ready language
+- R and R Markdown for applied public-health research
+- `readr`, `dplyr`, `tidyr`, `stringr`, `purrr`, `lme4`, `geepack`, `emmeans`, and diagnostic packages
+- Longitudinal survey data cleaning
+- Repeated-measures modeling
+- GLMM and GEE logistic regression
+- Symptom text standardization and keyword-based clinical grouping
+- Model-selection judgment using AIC and diagnostics
+- Robust standard errors and phase-contrast interpretation
+- Manuscript-oriented statistical reporting
+- Privacy-aware handling of restricted human-subjects data
 
 ## Analysis Summary
 
-In the accepted manuscript, the analysis found that climate-related health impacts were highest during the hottest phase and declined during later phases. Heat-wave impacts were most clearly associated with asthma, hypertension, cardiovascular conditions, dyspnea, and fatigue. Dust-storm impacts were most clearly associated with asthma, dyspnea, and allergy-related symptoms.
+Using the final manuscript as the writing reference, the main interpretation was that heat waves and dust storms were associated with measurable negative health impacts among adults with NCDs. Reported impacts were highest during the hottest study phase and generally declined in later phases as temperatures and dust conditions eased.
 
-The public code recreates the same analytical pattern using synthetic data. The numeric outputs in this repository are examples from synthetic data and should not be interpreted as study findings.
+Heat-wave effects were most clearly connected to asthma, hypertension, cardiovascular conditions, dyspnea, and fatigue. Dust-storm effects were most clearly connected to asthma, dyspnea, and allergy-related symptoms. These findings supported the need for climate-adaptation planning, patient education, symptom surveillance, cooling access, shading, and dust-mitigation strategies in low-resource displacement settings.
 
 ## Publication Context
 
-This project contributed to an accepted publication on heat, dust, and NCD symptom burden in a refugee-camp setting. My contribution included data analysis in R and manuscript drafting support. The GitHub version is intentionally sanitized so it can showcase the technical workflow while respecting participant privacy, collaborator confidentiality, and publication boundaries.
+This analysis contributed to an accepted publication. My role included R-based data analysis and manuscript drafting support. The writing in this portfolio is based on the framing and interpretation from my final manuscript draft, while keeping restricted study data and internal manuscript files out of GitHub.
 
 ## Repository Contents
 
 ```text
 .
+|-- .gitignore
+|-- analysis/
+|   `-- Heatwave_V1_original_research_code.Rmd
 |-- data/
-|   `-- synthetic_ncd_heatwave_panel.csv
+|   `-- README.md
 |-- docs/
 |   |-- data_privacy.md
 |   `-- methods_summary.md
 |-- results/
-|   |-- gee_odds_ratios.csv
-|   |-- glmm_phase_contrasts.csv
-|   |-- glmm_time_spec_aic.csv
-|   |-- phase_prevalence.csv
-|   `-- plots/
-|       `-- synthetic_phase_symptom_trends.png
-|-- scripts/
-|   |-- 01_generate_synthetic_data.R
-|   `-- 02_heatwave_ncd_analysis.R
+|   `-- README.md
 `-- README.md
 ```
 
 ## How To Run
 
-From this project folder:
+The original data are restricted and are not included in this repository. Authorized users can place the required private files at:
 
-```bash
-Rscript scripts/01_generate_synthetic_data.R
-Rscript scripts/02_heatwave_ncd_analysis.R
+```text
+data/private/NCD_Data_clean_categories.csv
+data/private/HW_DS_Severity_Scale.csv
 ```
 
-Required R packages:
+Then open and run:
 
-```r
-c("dplyr", "tidyr", "stringr", "ggplot2", "geepack", "lme4", "emmeans", "readr")
+```text
+analysis/Heatwave_V1_original_research_code.Rmd
 ```
 
 ## Data Note
 
-The real research data are not included. The included synthetic dataset is generated from scratch and is only meant to make the analysis code executable. See [docs/data_privacy.md](docs/data_privacy.md) for the public-release boundary.
+The repo intentionally excludes participant-level data, original free-text responses, manuscript drafts, review files, and internal collaboration notes. See [docs/data_privacy.md](docs/data_privacy.md) for the release boundary.
