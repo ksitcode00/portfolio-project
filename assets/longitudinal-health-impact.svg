@@ -9,6 +9,5 @@
   <rect x="495" y="73" width="125" height="122" rx="4" fill="#0a7f65"/>
   <text x="247" y="222" fill="#57606a" font-family="Arial, sans-serif" font-size="16">No asthma</text>
   <text x="517" y="222" fill="#57606a" font-family="Arial, sans-serif" font-size="16">Asthma</text>
-  <text x="575" y="143" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="end">2.3</text>
-  <text x="579" y="132" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="700">×</text>
+  <text x="558" y="145" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">2.3×</text>
 </svg>
