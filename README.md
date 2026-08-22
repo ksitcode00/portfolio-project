@@ -86,7 +86,7 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 ---
 
-### 03 — [Privacy-Safe Clinical Screening Analytics](https://github.com/ksitcode00/confidential-clinical-screening-analysis)
+### 03 — [Privacy-Safe Clinical Screening Analytics](https://github.com/ksitcode00/privacy-safe-clinical-screening-analysis)
 
 **Context:** Anonymized restricted-data analytics project
 
@@ -98,7 +98,7 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 `R` · `Clinical Screening` · `Logistic Regression` · `Data Quality` · `Privacy-Aware Analytics`
 
-[Project Overview](https://github.com/ksitcode00/confidential-clinical-screening-analysis) · [R Pipeline](https://github.com/ksitcode00/confidential-clinical-screening-analysis/tree/main/R) · [Methods](https://github.com/ksitcode00/confidential-clinical-screening-analysis/blob/main/docs/methodology.md) · [Data Privacy](https://github.com/ksitcode00/confidential-clinical-screening-analysis/blob/main/docs/data_privacy.md)
+[Project Overview](https://github.com/ksitcode00/privacy-safe-clinical-screening-analysis) · [R Pipeline](https://github.com/ksitcode00/privacy-safe-clinical-screening-analysis/tree/main/R) · [Methods](https://github.com/ksitcode00/privacy-safe-clinical-screening-analysis/blob/main/docs/methodology.md) · [Data Privacy](https://github.com/ksitcode00/privacy-safe-clinical-screening-analysis/blob/main/docs/data_privacy.md)
 
 ![Restricted-data analytics architecture](assets/restricted-data-analytics-architecture.png)
 
