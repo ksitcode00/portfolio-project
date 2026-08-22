@@ -52,6 +52,10 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 ![Cooking-period versus 24-hour exposure comparison](assets/household-exposure-window-comparison.svg)
 
+**Exposure evidence panel**
+
+![Household air-pollution exposure evidence panel](assets/household-exposure-evidence-panel.svg)
+
 ---
 
 ### 02 — [Longitudinal Health Analysis](https://github.com/ksitcode00/longitudinal-health-analysis)
@@ -76,6 +80,10 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 ![Adjusted phase impact odds](assets/longitudinal-phase-impact-odds.svg)
 
+**Longitudinal risk & trajectory panel**
+
+![Longitudinal health risk and trajectory evidence panel](assets/longitudinal-risk-trajectory-panel.svg)
+
 ---
 
 ### 03 — [Confidential Clinical Screening Analytics](https://github.com/ksitcode00/confidential-clinical-screening-analysis)
@@ -92,7 +100,7 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 [Project Overview](https://github.com/ksitcode00/confidential-clinical-screening-analysis) · [R Pipeline](https://github.com/ksitcode00/confidential-clinical-screening-analysis/tree/main/R) · [Methods](https://github.com/ksitcode00/confidential-clinical-screening-analysis/blob/main/docs/methodology.md) · [Data Privacy](https://github.com/ksitcode00/confidential-clinical-screening-analysis/blob/main/docs/data_privacy.md)
 
-![Confidential clinical screening workflow](assets/confidential-clinical-workflow.svg)
+![Restricted-data analytics architecture](assets/restricted-data-analytics-architecture.svg)
 
 ---
 
