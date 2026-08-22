@@ -104,7 +104,7 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 [Project README](https://github.com/ksitcode00/lead-quality-optimization) · [Analysis Notebook](https://github.com/ksitcode00/lead-quality-optimization/blob/main/notebooks/lead_quality_analysis.ipynb) · [Key Figures](https://github.com/ksitcode00/lead-quality-optimization/tree/main/figures) · [Methodology](https://github.com/ksitcode00/lead-quality-optimization/blob/main/docs/methodology.md)
 
-![Cost per closed lead comparison](assets/lead-quality-impact.svg)
+![Lead quality decision dashboard](assets/lead-quality-decision-dashboard.svg)
 
 ---
 
@@ -124,7 +124,7 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 [Project Overview](https://github.com/ksitcode00/movie-success-analysis) · [Notebook](https://github.com/ksitcode00/movie-success-analysis/blob/main/notebooks/movie_success_analysis.ipynb) · [Figures](https://github.com/ksitcode00/movie-success-analysis/tree/main/figures) · [Results Summary](https://github.com/ksitcode00/movie-success-analysis/blob/main/docs/results_summary.md) · [Data Dictionary](https://github.com/ksitcode00/movie-success-analysis/blob/main/docs/data_dictionary.md)
 
-![Worldwide-gross model performance](assets/movie-success-impact.svg)
+![Worldwide gross model evaluation panel](assets/model-evaluation-panel.svg)
 
 ## Selected Research & Publications
 

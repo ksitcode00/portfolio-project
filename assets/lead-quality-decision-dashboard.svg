@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="730" viewBox="0 0 1200 730" role="img" aria-labelledby="title desc">
+  <title id="title">Lead quality decision dashboard</title>
+  <desc id="desc">A public-safe dashboard showing the evaluated monthly lead-quality trend, cost-per-close scenario, break-even quality rate, and CPL sensitivity from the documented analysis.</desc>
+  <rect width="1200" height="730" fill="#f6f8fb"/>
+  <g font-family="Arial, sans-serif">
+    <text x="48" y="58" font-size="30" font-weight="700" fill="#143d59">Lead Quality Decision Dashboard</text>
+    <text x="48" y="88" font-size="16" fill="#5b6b7a">Evaluated-lead analysis · public-safe aggregate results</text>
+    <rect x="944" y="35" width="208" height="40" rx="20" fill="#e5f4ef"/>
+    <text x="1048" y="61" font-size="15" text-anchor="middle" font-weight="700" fill="#08785f">Decision: test, then scale</text>
+
+    <rect x="48" y="122" width="258" height="102" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+    <text x="70" y="153" font-size="14" fill="#5b6b7a">CURRENT CPL</text>
+    <text x="70" y="195" font-size="34" font-weight="700" fill="#143d59">$30</text>
+    <text x="155" y="190" font-size="14" fill="#5b6b7a">baseline price</text>
+
+    <rect x="326" y="122" width="258" height="102" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+    <text x="348" y="153" font-size="14" fill="#5b6b7a">TARGET QUALITY</text>
+    <text x="348" y="195" font-size="34" font-weight="700" fill="#143d59">9.6%</text>
+    <text x="452" y="190" font-size="14" fill="#5b6b7a">from 8.0%</text>
+
+    <rect x="604" y="122" width="258" height="102" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+    <text x="626" y="153" font-size="14" fill="#5b6b7a">COST PER CLOSED LEAD</text>
+    <text x="626" y="195" font-size="29" font-weight="700" fill="#143d59">$375 → $344</text>
+    <text x="626" y="214" font-size="13" font-weight="700" fill="#08785f">8.3% lower unit cost</text>
+
+    <rect x="882" y="122" width="270" height="102" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+    <text x="904" y="153" font-size="14" fill="#5b6b7a">BREAK-EVEN QUALITY</text>
+    <text x="904" y="195" font-size="34" font-weight="700" fill="#143d59">8.8%</text>
+    <text x="1007" y="190" font-size="14" fill="#5b6b7a">at $33 CPL</text>
+
+    <rect x="48" y="250" width="664" height="315" rx="16" fill="#ffffff" stroke="#d9e2ec"/>
+    <text x="74" y="285" font-size="20" font-weight="700" fill="#143d59">Evaluated lead quality by month</text>
+    <text x="74" y="310" font-size="14" fill="#5b6b7a">Good rate among leads with a final Good or Bad outcome</text>
+    <line x1="92" y1="502" x2="674" y2="502" stroke="#9aa8b5" stroke-width="1.5"/>
+    <line x1="92" y1="429" x2="674" y2="429" stroke="#e4ebf1" stroke-width="1"/>
+    <line x1="92" y1="356" x2="674" y2="356" stroke="#e4ebf1" stroke-width="1"/>
+    <text x="64" y="507" font-size="13" fill="#72808f">25%</text>
+    <text x="64" y="434" font-size="13" fill="#72808f">45%</text>
+    <text x="64" y="361" font-size="13" fill="#72808f">65%</text>
+    <path d="M118 381 L224 409 L330 455 L436 481 L542 417 L648 407" fill="none" stroke="#0a7f65" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#0a7f65" stroke="#ffffff" stroke-width="3"><circle cx="118" cy="381" r="6"/><circle cx="224" cy="409" r="6"/><circle cx="330" cy="455" r="6"/><circle cx="436" cy="481" r="6"/><circle cx="542" cy="417" r="6"/><circle cx="648" cy="407" r="6"/></g>
+    <rect x="91" y="327" width="54" height="27" rx="13" fill="#e5f4ef"/><text x="118" y="346" text-anchor="middle" font-size="13" font-weight="700" fill="#08785f">58.1%</text>
+    <rect x="408" y="494" width="56" height="27" rx="13" fill="#fff0ed"/><text x="436" y="513" text-anchor="middle" font-size="13" font-weight="700" fill="#b54736">30.8%</text>
+    <rect x="620" y="371" width="56" height="27" rx="13" fill="#e5f4ef"/><text x="648" y="390" text-anchor="middle" font-size="13" font-weight="700" fill="#08785f">50.9%</text>
+    <text x="118" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">Apr</text><text x="224" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">May</text><text x="330" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">Jun</text><text x="436" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">Jul</text><text x="542" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">Aug</text><text x="648" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">Sep</text>
+
+    <rect x="738" y="250" width="414" height="315" rx="16" fill="#ffffff" stroke="#d9e2ec"/>
+    <text x="764" y="285" font-size="20" font-weight="700" fill="#143d59">CPL sensitivity at proposed price</text>
+    <text x="764" y="310" font-size="14" fill="#5b6b7a">Estimated cost per closed lead at $33 CPL</text>
+    <line x1="785" y1="502" x2="1114" y2="502" stroke="#9aa8b5" stroke-width="1.5"/>
+    <line x1="785" y1="419" x2="1114" y2="419" stroke="#e4ebf1" stroke-width="1"/>
+    <line x1="785" y1="336" x2="1114" y2="336" stroke="#e4ebf1" stroke-width="1"/>
+    <text x="754" y="507" text-anchor="end" font-size="13" fill="#72808f">$320</text><text x="754" y="424" text-anchor="end" font-size="13" fill="#72808f">$375</text><text x="754" y="341" text-anchor="end" font-size="13" fill="#72808f">$430</text>
+    <path d="M811 360 L949 417 L1087 464" fill="none" stroke="#d06642" stroke-width="4" stroke-linecap="round"/>
+    <g fill="#d06642" stroke="#ffffff" stroke-width="3"><circle cx="811" cy="360" r="7"/><circle cx="949" cy="417" r="7"/><circle cx="1087" cy="464" r="7"/></g>
+    <rect x="919" y="383" width="61" height="27" rx="13" fill="#fff0ed"/><text x="949" y="402" text-anchor="middle" font-size="13" font-weight="700" fill="#b54736">$375</text>
+    <rect x="1057" y="430" width="61" height="27" rx="13" fill="#e5f4ef"/><text x="1087" y="449" text-anchor="middle" font-size="13" font-weight="700" fill="#08785f">$344</text>
+    <text x="811" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">8.0%</text><text x="949" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">8.8%</text><text x="1087" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">9.6%</text>
+
+    <rect x="48" y="590" width="1104" height="92" rx="16" fill="#143d59"/>
+    <text x="74" y="626" font-size="16" font-weight="700" fill="#ffffff">Decision path</text>
+    <text x="74" y="654" font-size="15" fill="#d7e5ed">Prioritize stronger credit-oriented inventory and better ad sizes; reduce weak Brand / Google / 302×252 exposure; validate every shift through controlled testing.</text>
+    <text x="74" y="707" font-size="13" fill="#a9c2cf">Source: documented aggregate findings from the public-safe analysis notebook. The scenario is a sensitivity calculation, not a causal forecast.</text>
+  </g>
+</svg>
