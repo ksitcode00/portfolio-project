@@ -74,7 +74,7 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 [Project Overview](https://github.com/ksitcode00/longitudinal-health-analysis) · [R Analysis](https://github.com/ksitcode00/longitudinal-health-analysis/blob/main/analysis/longitudinal_health_analysis.Rmd) · [Figures](https://github.com/ksitcode00/longitudinal-health-analysis/tree/main/figures) · [Methods](https://github.com/ksitcode00/longitudinal-health-analysis/blob/main/docs/methodology.md) · [Data Privacy](https://github.com/ksitcode00/longitudinal-health-analysis/blob/main/docs/data_privacy.md)
 
-![Respiratory symptom odds during heatwave periods](assets/longitudinal-health-impact-v2.svg)
+![Respiratory symptom odds during heatwave periods](assets/longitudinal-health-impact-v3.png)
 
 **Adjusted phase associations**
 
@@ -100,7 +100,7 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 [Project Overview](https://github.com/ksitcode00/confidential-clinical-screening-analysis) · [R Pipeline](https://github.com/ksitcode00/confidential-clinical-screening-analysis/tree/main/R) · [Methods](https://github.com/ksitcode00/confidential-clinical-screening-analysis/blob/main/docs/methodology.md) · [Data Privacy](https://github.com/ksitcode00/confidential-clinical-screening-analysis/blob/main/docs/data_privacy.md)
 
-![Restricted-data analytics architecture](assets/restricted-data-analytics-architecture.svg)
+![Restricted-data analytics architecture](assets/restricted-data-analytics-architecture.png)
 
 ---
 
@@ -140,7 +140,7 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 [Project Overview](https://github.com/ksitcode00/movie-success-analysis) · [Notebook](https://github.com/ksitcode00/movie-success-analysis/blob/main/notebooks/movie_success_analysis.ipynb) · [Figures](https://github.com/ksitcode00/movie-success-analysis/tree/main/figures) · [Results Summary](https://github.com/ksitcode00/movie-success-analysis/blob/main/docs/results_summary.md) · [Data Dictionary](https://github.com/ksitcode00/movie-success-analysis/blob/main/docs/data_dictionary.md)
 
-![Worldwide gross model evaluation panel](assets/model-evaluation-panel.svg)
+![Worldwide gross model evaluation panel](assets/model-evaluation-panel.png)
 
 **Data integration pipeline**
 
