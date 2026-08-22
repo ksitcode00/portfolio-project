@@ -48,6 +48,10 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 ![Adjusted pollution reduction during cooking](assets/air-pollution-impact.svg)
 
+**Exposure-window comparison**
+
+![Cooking-period versus 24-hour exposure comparison](assets/household-exposure-window-comparison.svg)
+
 ---
 
 ### 02 — [Longitudinal Health Analysis](https://github.com/ksitcode00/longitudinal-health-analysis)
@@ -67,6 +71,10 @@ My work combines the practical discipline of analytics—defining a decision, va
 [Project Overview](https://github.com/ksitcode00/longitudinal-health-analysis) · [R Analysis](https://github.com/ksitcode00/longitudinal-health-analysis/blob/main/analysis/longitudinal_health_analysis.Rmd) · [Figures](https://github.com/ksitcode00/longitudinal-health-analysis/tree/main/figures) · [Methods](https://github.com/ksitcode00/longitudinal-health-analysis/blob/main/docs/methodology.md) · [Data Privacy](https://github.com/ksitcode00/longitudinal-health-analysis/blob/main/docs/data_privacy.md)
 
 ![Respiratory symptom odds during heatwave periods](https://raw.githubusercontent.com/ksitcode00/ksitcode00/6d7dd889d1cac37d7defa96a2b34384f98ef541f/assets/longitudinal-health-impact.svg)
+
+**Adjusted phase associations**
+
+![Adjusted phase impact odds](assets/longitudinal-phase-impact-odds.svg)
 
 ---
 
@@ -125,6 +133,10 @@ My work combines the practical discipline of analytics—defining a decision, va
 [Project Overview](https://github.com/ksitcode00/movie-success-analysis) · [Notebook](https://github.com/ksitcode00/movie-success-analysis/blob/main/notebooks/movie_success_analysis.ipynb) · [Figures](https://github.com/ksitcode00/movie-success-analysis/tree/main/figures) · [Results Summary](https://github.com/ksitcode00/movie-success-analysis/blob/main/docs/results_summary.md) · [Data Dictionary](https://github.com/ksitcode00/movie-success-analysis/blob/main/docs/data_dictionary.md)
 
 ![Worldwide gross model evaluation panel](assets/model-evaluation-panel.svg)
+
+**Data integration pipeline**
+
+![Movie data integration pipeline](assets/movie-data-integration-pipeline.svg)
 
 ## Selected Research & Publications
 
