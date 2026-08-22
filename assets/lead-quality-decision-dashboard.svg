@@ -40,7 +40,7 @@
     <path d="M118 381 L224 409 L330 455 L436 481 L542 417 L648 407" fill="none" stroke="#0a7f65" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
     <g fill="#0a7f65" stroke="#ffffff" stroke-width="3"><circle cx="118" cy="381" r="6"/><circle cx="224" cy="409" r="6"/><circle cx="330" cy="455" r="6"/><circle cx="436" cy="481" r="6"/><circle cx="542" cy="417" r="6"/><circle cx="648" cy="407" r="6"/></g>
     <rect x="91" y="327" width="54" height="27" rx="13" fill="#e5f4ef"/><text x="118" y="346" text-anchor="middle" font-size="13" font-weight="700" fill="#08785f">58.1%</text>
-    <rect x="408" y="494" width="56" height="27" rx="13" fill="#fff0ed"/><text x="436" y="513" text-anchor="middle" font-size="13" font-weight="700" fill="#b54736">30.8%</text>
+    <rect x="408" y="447" width="56" height="27" rx="13" fill="#fff0ed"/><text x="436" y="466" text-anchor="middle" font-size="13" font-weight="700" fill="#b54736">30.8%</text>
     <rect x="620" y="371" width="56" height="27" rx="13" fill="#e5f4ef"/><text x="648" y="390" text-anchor="middle" font-size="13" font-weight="700" fill="#08785f">50.9%</text>
     <text x="118" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">Apr</text><text x="224" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">May</text><text x="330" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">Jun</text><text x="436" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">Jul</text><text x="542" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">Aug</text><text x="648" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">Sep</text>
 
@@ -57,9 +57,10 @@
     <rect x="1057" y="430" width="61" height="27" rx="13" fill="#e5f4ef"/><text x="1087" y="449" text-anchor="middle" font-size="13" font-weight="700" fill="#08785f">$344</text>
     <text x="811" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">8.0%</text><text x="949" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">8.8%</text><text x="1087" y="537" text-anchor="middle" font-size="14" fill="#5b6b7a">9.6%</text>
 
-    <rect x="48" y="590" width="1104" height="92" rx="16" fill="#143d59"/>
-    <text x="74" y="626" font-size="16" font-weight="700" fill="#ffffff">Decision path</text>
-    <text x="74" y="654" font-size="15" fill="#d7e5ed">Prioritize stronger credit-oriented inventory and better ad sizes; reduce weak Brand / Google / 302×252 exposure; validate every shift through controlled testing.</text>
-    <text x="74" y="707" font-size="13" fill="#a9c2cf">Source: documented aggregate findings from the public-safe analysis notebook. The scenario is a sensitivity calculation, not a causal forecast.</text>
+    <rect x="48" y="590" width="1104" height="112" rx="16" fill="#143d59"/>
+    <text x="74" y="620" font-size="16" font-weight="700" fill="#ffffff">Decision path</text>
+    <text x="74" y="647" font-size="15" fill="#d7e5ed">Prioritize stronger credit-oriented inventory and better ad sizes; reduce weak Brand / Google / 302×252 exposure.</text>
+    <text x="74" y="668" font-size="15" fill="#d7e5ed">Validate every shift through controlled testing before scaling.</text>
+    <text x="74" y="692" font-size="13" fill="#a9c2cf">Source: documented aggregate findings from the public-safe analysis notebook. The scenario is a sensitivity calculation, not a causal forecast.</text>
   </g>
 </svg>

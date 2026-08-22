@@ -74,7 +74,7 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 [Project Overview](https://github.com/ksitcode00/longitudinal-health-analysis) · [R Analysis](https://github.com/ksitcode00/longitudinal-health-analysis/blob/main/analysis/longitudinal_health_analysis.Rmd) · [Figures](https://github.com/ksitcode00/longitudinal-health-analysis/tree/main/figures) · [Methods](https://github.com/ksitcode00/longitudinal-health-analysis/blob/main/docs/methodology.md) · [Data Privacy](https://github.com/ksitcode00/longitudinal-health-analysis/blob/main/docs/data_privacy.md)
 
-![Respiratory symptom odds during heatwave periods](https://raw.githubusercontent.com/ksitcode00/ksitcode00/6d7dd889d1cac37d7defa96a2b34384f98ef541f/assets/longitudinal-health-impact.svg)
+![Respiratory symptom odds during heatwave periods](assets/longitudinal-health-impact.svg)
 
 **Adjusted phase associations**
 
