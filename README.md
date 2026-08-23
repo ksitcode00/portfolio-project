@@ -4,6 +4,8 @@
 
 ### Data Analyst · Statistical & Business Analytics
 
+**Official Analytics Portfolio** · This is the portfolio linked on my resume.
+
 **SQL · Python · R · Statistical Modeling**
 
 M.S. Biostatistics, UC San Diego &nbsp;|&nbsp; B.S. Statistics, UC Davis
