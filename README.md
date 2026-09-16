@@ -148,6 +148,26 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 ![Movie data integration pipeline](assets/movie-data-integration-pipeline.svg)
 
+---
+
+### 06 — [SF Transit Pulse](https://github.com/ksitcode00/sf-transit-pulse-site)
+
+**Context:** Independent public-transit decision-support product | Auto-updating bilingual web application
+
+**Product problem:** Most transit tools show an arrival time, but riders may still need to know whether vehicles are bunching, whether one direction has a longer gap, whether a transfer is realistic, and why one trip ranks above another.
+
+**What I built:** A public Muni decision system that combines live vehicle positions, trip predictions, service notices, road context, route-direction diagnostics, direct and one-transfer planning, and explainable Fastest, Balanced, and Historical Context rankings.
+
+**Engineering outcome:** The serverless pipeline refreshes core transit data about every three minutes, monitors freshness independently, recovers stale snapshots, and clearly distinguishes current, retained, delayed, and unavailable sources instead of presenting old data as realtime.
+
+**My role:** Designed and built the end-to-end product in Python and JavaScript, including 511 and DataSF ingestion, GTFS-Realtime processing, geospatial matching, headway and bunching analysis, multi-objective trip scoring, bilingual responsive UI, automated testing, monitoring, and GitHub Pages deployment.
+
+`Python` · `JavaScript` · `GTFS-Realtime` · `Geospatial Analytics` · `Decision Support` · `Data Pipelines`
+
+[Live App](https://ksitcode00.github.io/sf-transit-pulse-site/?lang=en) · [Project Overview](https://github.com/ksitcode00/sf-transit-pulse-site) · [Recommendation Method](https://github.com/ksitcode00/sf-transit-pulse-site#how-recommendations-are-calculated) · [Serverless Architecture](https://github.com/ksitcode00/sf-transit-pulse-site#serverless-architecture) · [Tests](https://github.com/ksitcode00/sf-transit-pulse-site#tests)
+
+![SF Transit Pulse live Muni decision-support application](assets/sf-transit-pulse.png)
+
 ## Selected Research & Publications
 
 - **Heat and Dust Impacts on the Health of Refugees in Zaatari Refugee Camp** — Co-author · *GeoHealth* (2026) · [Paper](https://pubmed.ncbi.nlm.nih.gov/42524033/) · [DOI](https://doi.org/10.1029/2025GH001687)
