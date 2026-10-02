@@ -112,15 +112,17 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 **Business problem:** Could a marketing team raise cost per lead from **$30 to $33** if lead quality improves from **8.0% to 9.6%**?
 
-**Finding:** After evaluating lead-quality trends and segment-level drivers, the proposed scenario reduced estimated cost per closed lead from **$375 to about $344**.
+**Finding:** Using the supplied 8.0% to 9.6% quality scenario and $30 to $33 CPL amounts, cost per qualifying lead falls from **$375 to $343.75**. Closed conversions are examined separately as a business outcome.
 
-**Recommendation:** Manage toward closed rate and cost per closed lead; reallocate from weak partner/creative mixes, test stronger formats, and validate changes through controlled rollout.
+**Recommendation:** Agree on the payment quality definition, track closed conversions alongside it, test shifts from weaker segments, and validate changes through controlled rollout.
 
 **My role:** Completed the end-to-end Python analysis, including data validation, trend and segment analysis, adjusted logistic regression, scenario modeling, and executive recommendations.
 
 `Python` · `pandas` · `Logistic Regression` · `KPI Analysis` · `Scenario Analysis`
 
 [Project README](https://github.com/ksitcode00/lead-quality-optimization) · [Analysis Notebook](https://github.com/ksitcode00/lead-quality-optimization/blob/main/notebooks/lead_quality_analysis.ipynb) · [Key Figures](https://github.com/ksitcode00/lead-quality-optimization/tree/main/figures) · [Methodology](https://github.com/ksitcode00/lead-quality-optimization/blob/main/docs/methodology.md)
+
+**Completed:** 2026. The project documentation includes setup instructions, analytical decisions, limitations, and a [validation record](https://github.com/ksitcode00/lead-quality-optimization/blob/main/docs/validation.md).
 
 ![Lead quality decision dashboard](assets/lead-quality-decision-dashboard.svg)
 
