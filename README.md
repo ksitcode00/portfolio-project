@@ -126,31 +126,7 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 ---
 
-### 05 — [Movie Success Analysis](https://github.com/ksitcode00/movie-success-analysis)
-
-**Context:** UC Davis data science project | 933-row final modeling dataset
-
-**Question:** Which production and audience factors help explain movie ratings and worldwide box-office performance?
-
-**Finding:** The final worldwide-gross model explained about **51%** of variation in log gross. Budget, audience rating, franchise status, and critic score were among the most informative factors.
-
-**What it demonstrates:** Collected, cleaned, and matched data across public web sources; engineered features and applied logistic and linear regression with diagnostic checks.
-
-**My role:** Built the Python data-collection, entity-matching, feature-engineering, modeling, diagnostic, and interpretation workflow.
-
-`Python` · `Web Scraping` · `Entity Matching` · `Feature Engineering` · `Regression Diagnostics`
-
-[Project Overview](https://github.com/ksitcode00/movie-success-analysis) · [Notebook](https://github.com/ksitcode00/movie-success-analysis/blob/main/notebooks/movie_success_analysis.ipynb) · [Figures](https://github.com/ksitcode00/movie-success-analysis/tree/main/figures) · [Results Summary](https://github.com/ksitcode00/movie-success-analysis/blob/main/docs/results_summary.md) · [Data Dictionary](https://github.com/ksitcode00/movie-success-analysis/blob/main/docs/data_dictionary.md)
-
-![Worldwide gross model evaluation panel](assets/model-evaluation-panel.png)
-
-**Data integration pipeline**
-
-![Movie data integration pipeline](assets/movie-data-integration-pipeline.svg)
-
----
-
-### 06 — [SF Transit Pulse](https://github.com/ksitcode00/sf-transit-pulse-site)
+### 05 — [SF Transit Pulse](https://github.com/ksitcode00/sf-transit-pulse-site)
 
 **Context:** Independent public-transit decision-support product | Auto-updating bilingual web application
 
