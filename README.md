@@ -32,15 +32,15 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 ## Featured Analytics Projects
 
-### 01 — [Household Air Pollution Analysis](https://github.com/ksitcode00/household-air-pollution-analysis)
+### 01 — [Air Pollution Research Project](https://github.com/ksitcode00/household-air-pollution-analysis)
 
-**Context:** UC San Diego environmental-health research | 180 households
+**Context:** UC San Diego environmental-health research | 180 households enrolled; 179 in revised adjusted models
 
 **Research question:** Were improved-cookstove households associated with lower indoor air pollution after accounting for household and program factors?
 
-**Finding:** In adjusted models, improved-cookstove use was associated with **28% lower PM10**, **36% lower PM2.5**, and **38% lower PM1** during cooking periods.
+**Finding:** Cooking-period IDES-to-traditional ratios were **0.695 for PM10**, **0.646 for PM2.5**, and **0.623 for PM1** in revised adjusted models. These compare conditional geometric means of **C+1**, with HC3 95% confidence intervals; they are not exact percentage reductions in raw concentration.
 
-**Program implication:** Cleaner-stove programs may have their clearest benefit during active cooking, while electricity access, kitchen setting, and household conditions still shape real-world exposure.
+**Program implication:** Lower particle ratios during cooking point to a useful exposure window for program evaluation. Household conditions, stove stacking, and background sources still matter; the study does not establish causality.
 
 **My role:** Led statistical analysis in R, including data cleaning, adjusted regression models, causal-inference sensitivity analysis, diagnostics, and interpretation for manuscript development.
 
@@ -48,15 +48,7 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 [Project Overview](https://github.com/ksitcode00/household-air-pollution-analysis) · [R Analysis](https://github.com/ksitcode00/household-air-pollution-analysis/blob/main/analysis/air_pollution_analysis.Rmd) · [Methods](https://github.com/ksitcode00/household-air-pollution-analysis/blob/main/docs/methodology.md) · [Data Privacy](https://github.com/ksitcode00/household-air-pollution-analysis/blob/main/docs/data_privacy.md)
 
-![Adjusted pollution reduction during cooking](assets/air-pollution-impact.svg)
-
-**Exposure-window comparison**
-
-![Cooking-period versus 24-hour exposure comparison](assets/household-exposure-window-comparison.svg)
-
-**Exposure evidence panel**
-
-![Household air-pollution exposure evidence panel](assets/household-exposure-evidence-panel.svg)
+![Air Pollution Research Project: four pollutant ratios and HC3 confidence intervals across cooking and 24-hour windows](assets/air-pollution-research-overview.png)
 
 ---
 
