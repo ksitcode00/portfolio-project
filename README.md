@@ -76,15 +76,9 @@ My work combines the practical discipline of analytics—defining a decision, va
 
 [Project Overview](https://github.com/ksitcode00/longitudinal-health-analysis) · [R Analysis](https://github.com/ksitcode00/longitudinal-health-analysis/blob/main/analysis/longitudinal_health_analysis.Rmd) · [Figures](https://github.com/ksitcode00/longitudinal-health-analysis/tree/main/figures) · [Methods](https://github.com/ksitcode00/longitudinal-health-analysis/blob/main/docs/methodology.md) · [Data Privacy](https://github.com/ksitcode00/longitudinal-health-analysis/blob/main/docs/data_privacy.md)
 
-![Respiratory symptom odds during heatwave periods](assets/longitudinal-health-impact.png)
+[![Selected longitudinal GEE associations with adjusted odds ratios and 95% confidence intervals](assets/longitudinal-research-evidence.png)](https://github.com/ksitcode00/longitudinal-health-analysis#evidence-at-a-glance)
 
-**Adjusted phase associations**
-
-![Adjusted phase impact odds](assets/longitudinal-phase-impact-odds.svg)
-
-**Longitudinal risk & trajectory panel**
-
-![Longitudinal health risk and trajectory evidence panel](assets/longitudinal-risk-trajectory-panel.svg)
+Selected aggregate estimates from the final manuscript. [Phase comparisons, analysis workflow, and figure sources](https://github.com/ksitcode00/longitudinal-health-analysis#evidence-at-a-glance).
 
 ---
 
