@@ -96,7 +96,7 @@ Selected aggregate estimates from the final manuscript. [Phase comparisons, anal
 
 [Project Overview](https://github.com/ksitcode00/privacy-safe-clinical-screening-analysis) · [R Pipeline](https://github.com/ksitcode00/privacy-safe-clinical-screening-analysis/tree/main/R) · [Methods](https://github.com/ksitcode00/privacy-safe-clinical-screening-analysis/blob/main/docs/methodology.md) · [Data Privacy](https://github.com/ksitcode00/privacy-safe-clinical-screening-analysis/blob/main/docs/data_privacy.md)
 
-![Restricted-data analytics architecture](assets/restricted-data-analytics-architecture.png)
+![Clinical screening analytics: reconcile examination findings and reported history, audit the cohort, and model associations](assets/clinical-screening-cover.svg)
 
 ---
 
